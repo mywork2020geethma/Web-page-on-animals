@@ -1,0 +1,182 @@
+p{
+
+
+}
+
+h4{
+  font-family:verdana,tahoma,"trebuchet MS" ;
+  font-size: ;
+
+
+}
+
+nav{
+  text-align: center;
+  position: fixed;
+  top: 1%;
+  left:1%;
+
+}
+
+section{
+  padding: 50px;
+  text-align: justify;
+}
+
+
+nav a:hover{
+  background: #8FBC8F ;
+  border:#2E8B57 2px;
+
+}
+
+nav a:active{
+  background: #FFF5EE;
+  border: #C0C0C0 2px;
+}
+
+
+
+nav a{
+  display: inline-block;
+  background-color: #3CB371;
+  width:10%;
+  text-align: center;
+  border: #2F4F4F solid 2px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+  color: #F8F8FF;
+
+
+}
+#introduction{
+  font-size: 120%;
+  background-color: #FAFAD2;
+  text-align: justify;
+  clear: both;
+  margin: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+
+}
+#endangered_species{
+  background:#F5F5F5;
+  padding-left: 50px;
+  border-radius: 5px;
+  border: 1px solid #32CD32;
+  margin-bottom: 20px;
+}
+
+#stray_dogs{
+  float: right;
+  border: 1px solid #32CD32;
+  background-color: #FFF5EE;
+  background-image: url("straydog.jpg") no-repeat;
+  padding: 10px;
+  border-radius: 5px;
+  display:inline-block;
+  width: 37%;
+  transition-property: border,width;
+  transition-duration: .2s;
+  transition-timing-function: linear;
+  transition-delay: .2s;
+}
+
+#stray_dogs:hover{
+  border: 2px solid #000000;
+  width:38%;
+}
+
+
+
+#stray_dogs img{
+  margin: ;
+
+
+}
+
+#pets{
+  float: left;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #32CD32;
+  background-color: #FFF5EE;
+  margin-bottom: 20px;
+
+}
+
+#pets img{
+  width: 70%;
+
+
+}
+
+ section ul{
+  list-style-type: square;
+}
+
+aside{
+  margin-top:20px ;
+  padding: 10px;
+  float: right;
+  width: 37%;
+  background:#F5F5F5;
+  border: 1px solid #32CD32;
+  border-radius: 5px;
+
+}
+h1{
+  background:#9ACD32;
+  text-align: center;
+  font-family:tahoma, verdana,"trebuchet MS" ;
+  color:#FFFFFF ;
+  background: url("Cheetah.jpg") no-repeat ;
+  background-size: 100%;
+  height: 200%;
+  padding: 70px;
+  margin: 20px;
+  font-size: 500%
+}
+
+footer{
+  clear: both;
+  background:#FAFAD2 ;
+  padding-left: 50px;
+
+  margin-top: 20px;
+}
+
+address{
+  clear: both;
+  background:#8FBC8F;
+  padding-left: 50px;
+  margin-top: 30px;
+  background:-webkit-linear-gradient(#2F4F4F,#8FBC8F) ;
+  background:-moz-linear-gradient(#2F4F4F,#8FBC8F) ;
+  background:-o-linear-gradient(#2F4F4F,#8FBC8F) ;
+  background:linear-gradient(#2F4F4F,#8FBC8F) ;
+  color: #F0FFF0;
+}
+
+address a{
+  text-decoration: none;
+  color:#7FFFD4;
+  margin: 5px;
+  display: inline-block;
+  font-variant: small-caps;
+  -webkit-transition:-webkit-transform 1s;
+  -o-transition:-o-transform 1s;
+  -moz-transition:-moz-transform 1s;
+
+}
+
+address a:hover{
+  -webkit-transform:rotate(-30deg);
+  -o-transform:rotate(-30deg);
+  -moz-transform:rotate(-30deg);
+  transform: rotate(-30deg);
+
+}
